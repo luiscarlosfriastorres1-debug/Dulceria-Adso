@@ -1,0 +1,984 @@
+*{
+
+    padding: 0;
+    margin: 0;
+}
+
+
+/* --------------------------- HEADER ESTA ES TODA MI PARTE DEL ENCABEZADO --------------------------- */
+.encabezado{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 124px;
+    background: linear-gradient(to right, #FD9D12, #FD6802);
+    
+    
+}
+
+
+.contenedorlogoheader{
+
+    display: flex;
+    justify-content: center;
+    margin-left: 3%;
+    width: 127px;
+    height: 100%;
+
+}
+
+.logoheader{
+
+    width: 100%;
+    height: 100%;
+
+}
+
+.nav-header{
+    color: rgb(255, 255, 255);
+    font-family: 'Inter', sans-serif;
+    font-weight: 600px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 18%;
+    gap: 220px;
+}
+
+.iconosheader{
+    display: flex;
+    gap: 50px;
+    margin-left: 18%;
+    margin-right: 3%;
+}
+
+/* --------------------------- ESTA ES TODA MI PARTE DE LA SECCION DE LAS CATEGORIAS ARRIBA DEL SLIDERS (DULCERIA | REGALOS) --------------------------- */
+
+.seccioncategoria{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 59px;
+    justify-content: center;
+
+}
+
+.division{
+    font-size: 22px;
+    margin-right: 5%;
+    margin-left: 5%;
+    color: #343435;
+    font-family: 'Inter', sans-serif;
+}
+
+.txt-dulceria{
+    font-size: 20px;
+
+    color: #343435;
+    font-family: 'Inter', sans-serif;
+}
+
+.txt-regalos{
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    color: #343435;
+}
+
+.linehr1{
+    background-color: #E2E0E0;
+    border: none;
+    height: 1.5px;
+}
+
+/* Seccion de la img y el los textos osea lo principal pues*/
+
+.seccion-texto-img {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    padding: 40px 60px;
+}
+
+
+
+.texto-lado h2 {
+    font-size: 105px;
+    font-weight: 700;
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+
+}
+
+.texto-lado p {
+    font-size: 25px;
+    line-height: 1.3;
+    margin-top: 20px;
+}
+
+.img-lado {
+    width: 1200px;
+    height: 880px;
+}
+
+/*Seccion de la historia pues mijo*/
+
+.seccion-historia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 200px;
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+}
+
+.titulo-historia {
+    font-size: 62px;
+    font-weight: 700;
+    color: #F47920;
+    margin-bottom: 24px;
+}
+
+.texto-historia {
+    font-size: 30px;
+    line-height: 1.3;
+    color: #343435;
+    max-width: 900px;
+    text-align: justify;
+}
+
+
+
+
+/* Linea del time */
+
+.seccion-pasos {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 60px 100px;
+    gap: 0;
+}
+
+.paso {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 260px;
+}
+
+.icono-paso {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 16px;
+}
+
+.titulo-paso {
+    font-size: 30px;
+    font-weight: 700;
+    color: #343435;
+    margin-bottom: 12px;
+}
+
+.texto-paso {
+    font-size: 20px;
+    line-height: 1.3;
+    color: #343435;
+    text-align: justify;
+}
+
+.linea-paso {
+    flex: 1;
+    height: 2px;
+    margin-top: 35px;
+    border-style: dashed;
+    border-width: 2px 0 0 0;
+    border-color: #ff241c;
+    background: none;
+    
+}
+
+
+
+/*Valoressssssssssssssssssssss*/
+
+
+.seccion-valores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 100px;
+    background-color: #FFF8ED;
+}
+
+.titulo-valores {
+    font-size: 50px;
+    font-weight: 700;
+    color: #F47920;
+    margin-bottom: 36px;
+}
+
+.valores-contenedor {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+}
+
+.valor {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    max-width: 400px;
+}
+
+.icono-valor {
+    width: 70px;
+    height: 70px;
+    flex-shrink: 0;
+}
+
+.titulo-valor {
+    font-size: 27px;
+    font-weight: 700;
+    color: #343435;
+    margin-bottom: 6px;
+}
+
+.texto-valor {
+    font-size: 20px;
+    line-height: 1.3;
+    color: #343435;
+}
+
+
+
+
+/*Compromisoooooooooo*/
+
+
+.seccion-compromiso {
+    display: flex;
+    align-items: center;
+    padding: 60px 100px;
+    gap: 60px;
+    background-color: #fff;
+}
+
+.compromiso-texto {
+    max-width: 280px;
+}
+
+.titulo-compromiso {
+    font-size: 50px;
+    font-weight: 700;
+    color: #F47920;
+    margin-bottom: 16px;
+}
+
+.texto-compromiso {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #343435;
+    text-align: justify;
+}
+
+.compromiso-imgs {
+    display: flex;
+    gap: 50px;
+    margin-left: 130px;
+}
+
+.compromiso-card:nth-child(1) {
+    background-color: #4A7C2F;
+}
+
+.compromiso-card:nth-child(2) {
+    background-color: #C0392B;
+}
+
+.compromiso-card:nth-child(3) {
+    background-color: #F47920;
+}
+
+.compromiso-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 450px;
+    border-radius: 12px;
+    overflow: hidden;
+    gap: 12px;
+}
+
+.compromiso-img {
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+}
+
+.compromiso-label {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 8px;
+}
+
+
+
+
+.seccion-mapa {
+    width: 100%;
+    object-fit: contain;
+}
+.seccion-mapa img{
+    width: 100%;
+}
+
+
+
+/* -----------  Pie de pagina --------------------*/
+
+.contepiedepagina {
+    margin-top: 72px;
+    width: 100%;
+    height: 250px;
+    background-color: #E4E4E4;
+    display: flex;
+    align-items: center;
+}
+
+.logopie {
+    width: 250px;
+    height: 250px;
+    background-color: #622e1400;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+
+.line1 {
+    width: 1px;
+    height: 170px;
+    background-color: #7D7D7D;
+    margin-left: 140px;
+    margin-top: 7px;
+}
+
+.infocontactanos {
+    width: 250px;
+    height: 190px;
+    background-color: #622e1400;
+    margin-left: 100px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+    gap: 8px;
+    font-size: 18px;
+    font-family: 'ABeeZee', sans-serif;
+    font-weight: 400;
+}
+
+.contactanos {
+    margin: 0;
+    padding: 0;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 600;
+}
+
+.infoitem {
+    margin-top: 9px;
+    gap: px;
+
+}
+
+.infoitem img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    
+}
+
+.infosiguenos {
+    width: 250px;
+    height: 190px;
+    background-color: #ff550000;
+    margin-left: 70px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+    gap: 8px;
+    font-size: 18px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 600;
+}
+
+.infoitensig {
+    margin-top: 20px;
+}
+
+
+.infoenlaces {
+    width: 250px;
+    height: 190px;
+    background-color: #622e1400;
+    margin-left: 80px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+    gap: 8px;
+    
+}
+
+.enlaces {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 600;
+
+
+    
+}
+
+.infoitemenlaces {
+    margin-top: 9px;
+    gap: 10px;
+    font-size: 18px;
+    font-family: 'ABeeZee', sans-serif;
+    font-weight: 400;
+}
+
+
+@media (max-width: 1024px) {
+
+    * {
+        box-sizing: border-box;
+    }
+
+    /* ---- HEADER ---- */
+    .encabezado {
+        height: 90px;
+        padding: 0 20px;
+        justify-content: space-between;
+    }
+
+    .contenedorlogoheader {
+        width: 90px;
+        height: 90px;
+        margin-left: 0;
+    }
+
+    .logoheader {
+        width: 90px;
+        height: 90px;
+    }
+
+    .nav-header {
+        display: none;
+    }
+
+    .iconosheader {
+        margin-left: auto;
+        margin-right: 0;
+        gap: 20px;
+    }
+
+    .iconuser,
+    .iconcarrito {
+        width: 28px;
+        height: 28px;
+    }
+
+    /* ---- CATEGORIAS ---- */
+    .seccioncategoria {
+        height: auto;
+        padding: 12px 0;
+    }
+
+    .txt-dulceria,
+    .txt-regalos,
+    .division {
+        font-size: 17px;
+    }
+
+    /* ---- SECCION TEXTO + IMG ---- */
+    /* FIX: h2 a 105px y la imagen a 1200x880px fijos se desbordan por
+       completo en tableta; se pasa a columna (texto arriba, imagen
+       abajo) con tamaños relativos al viewport */
+    .seccion-texto-img {
+        flex-direction: column;
+        gap: 24px;
+        padding: 32px 24px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .texto-lado {
+        text-align: center;
+    }
+
+    .texto-lado h2 {
+        font-size: 48px;
+    }
+
+    .texto-lado p {
+        font-size: 17px;
+        margin-top: 14px;
+    }
+
+    /* Los <br> del HTML estaban pensados para el ancho de desktop;
+       aquí se neutralizan para que el texto fluya naturalmente */
+    .texto-lado p br {
+        display: none;
+    }
+
+    .img-lado {
+        width: 100%;
+        max-width: 480px;
+        height: auto;
+    }
+
+    /* ---- SECCION HISTORIA ---- */
+    .seccion-historia {
+        padding: 40px 32px;
+    }
+
+    .titulo-historia {
+        font-size: 36px;
+    }
+
+    .texto-historia {
+        font-size: 17px;
+        max-width: 100%;
+    }
+
+    /* ---- LINEA DEL TIME (pasos) ---- */
+    /* En tableta se mantiene en fila pero más compacta */
+    .seccion-pasos {
+        padding: 40px 24px;
+        gap: 16px;
+    }
+
+    .paso {
+        max-width: 220px;
+    }
+
+    .icono-paso {
+        width: 54px;
+        height: 54px;
+    }
+
+    .titulo-paso {
+        font-size: 22px;
+    }
+
+    .texto-paso {
+        font-size: 15px;
+    }
+
+    .linea-paso {
+        margin-top: 27px;
+    }
+
+    /* ---- VALORES ---- */
+    .seccion-valores {
+        padding: 36px 24px;
+    }
+
+    .titulo-valores {
+        font-size: 32px;
+        margin-bottom: 24px;
+    }
+
+    .valores-contenedor {
+        flex-wrap: wrap;
+        gap: 24px;
+        justify-content: center;
+    }
+
+    .valor {
+        max-width: 280px;
+        flex: 1 1 260px;
+    }
+
+    .icono-valor {
+        width: 54px;
+        height: 54px;
+    }
+
+    .titulo-valor {
+        font-size: 20px;
+    }
+
+    .texto-valor {
+        font-size: 15px;
+    }
+
+    /* ---- COMPROMISO ---- */
+    /* FIX: tarjetas de 400x450px fijas + margin-left:130px se desbordan
+       fuertemente en tableta; se pasa a columna con tarjetas en fila
+       fluida debajo del texto */
+    .seccion-compromiso {
+        flex-direction: column;
+        padding: 40px 24px;
+        gap: 24px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .compromiso-texto {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .titulo-compromiso {
+        font-size: 32px;
+    }
+
+    .texto-compromiso {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .compromiso-imgs {
+        margin-left: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+        width: 100%;
+    }
+
+    .compromiso-card {
+        width: calc(33.33% - 11px);
+        min-width: 160px;
+        height: auto;
+    }
+
+    .compromiso-img {
+        width: 100%;
+        height: 180px;
+    }
+
+    /* ---- PIE DE PAGINA ---- */
+    /* En tableta el pie se mantiene horizontal pero más compacto */
+    .contepiedepagina {
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: auto;
+        padding: 24px 20px;
+        gap: 0;
+        justify-content: space-around;
+    }
+
+    .logopie {
+        width: 120px;
+        height: 120px;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .line1 {
+        width: 1px;
+        height: 140px;
+        margin-left: 0;
+
+    }
+
+    .infocontactanos,
+    .infosiguenos,
+    .infoenlaces {
+        width: auto;
+        height: auto;
+        margin-left: 0;
+        margin-top: 0;
+        font-size: 14px;
+        padding-left: 12px;
+    }
+
+    .infoitem img {
+        width: 16px;
+        height: 16px;
+    }
+
+    .contactanos,
+    .enlaces {
+        font-size: 15px;
+    }
+}
+
+
+/* =========================================================================
+   CELULAR (max-width: 430px)
+   ========================================================================= */
+
+@media (max-width: 430px) {
+
+    * {
+        box-sizing: border-box;
+    }
+
+    /* ---- HEADER ---- */
+    .encabezado {
+        height: 70px;
+        padding: 0 14px;
+        justify-content: space-between;
+    }
+
+    .contenedorlogoheader {
+        width: 60px;
+        height: 60px;
+        margin-left: 0;
+    }
+
+    .logoheader {
+        width: 60px;
+        height: 60px;
+    }
+
+    .nav-header {
+        display: none;
+    }
+
+    .iconosheader {
+        gap: 16px;
+        margin: 0;
+        margin-left: auto;
+    }
+
+    .iconuser,
+    .iconcarrito {
+        width: 26px;
+        height: 26px;
+    }
+
+    /* ---- CATEGORIAS ---- */
+    .seccioncategoria {
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .txt-dulceria,
+    .txt-regalos,
+    .division {
+        font-size: 14px;
+    }
+
+    .division {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    /* ---- SECCION TEXTO + IMG ---- */
+    .seccion-texto-img {
+        flex-direction: column;
+        gap: 18px;
+        padding: 24px 16px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .texto-lado h2 {
+        font-size: 30px;
+    }
+
+    .texto-lado p {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .texto-lado p br {
+        display: none;
+    }
+
+    .img-lado {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* ---- SECCION HISTORIA ---- */
+    .seccion-historia {
+        padding: 28px 16px;
+    }
+
+    .titulo-historia {
+        font-size: 24px;
+        margin-bottom: 16px;
+    }
+
+    .texto-historia {
+        font-size: 14px;
+        text-align: left;
+    }
+
+    /* ---- LINEA DEL TIME (pasos) ---- */
+    /* En celular pasa a columna; la línea punteada horizontal ya no
+       tiene sentido entre pasos apilados, así que se convierte en
+       línea vertical entre cada paso */
+    .seccion-pasos {
+        flex-direction: column;
+        align-items: center;
+        padding: 28px 16px;
+        gap: 0;
+    }
+
+    .paso {
+        max-width: 100%;
+    }
+
+    .icono-paso {
+        width: 46px;
+        height: 46px;
+        margin-bottom: 10px;
+    }
+
+    .titulo-paso {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+
+    .texto-paso {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .linea-paso {
+        width: 2px;
+        height: 32px;
+        margin: 8px 0;
+        border-style: dashed;
+        border-width: 0 0 0 2px;
+    }
+
+    /* ---- VALORES ---- */
+    .seccion-valores {
+        padding: 24px 16px;
+    }
+
+    .titulo-valores {
+        font-size: 24px;
+        margin-bottom: 18px;
+        text-align: center;
+    }
+
+    .valores-contenedor {
+        flex-direction: column;
+        gap: 18px;
+        width: 100%;
+    }
+
+    .valor {
+        max-width: 100%;
+        flex: none;
+    }
+
+    .icono-valor {
+        width: 44px;
+        height: 44px;
+    }
+
+    .titulo-valor {
+        font-size: 17px;
+    }
+
+    .texto-valor {
+        font-size: 13px;
+    }
+
+    /* ---- COMPROMISO ---- */
+    .seccion-compromiso {
+        flex-direction: column;
+        padding: 24px 16px;
+        gap: 18px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .compromiso-texto {
+        max-width: 100%;
+    }
+
+    .titulo-compromiso {
+        font-size: 24px;
+    }
+
+    .texto-compromiso {
+        font-size: 13px;
+        text-align: center;
+        line-height: 1.5;
+    }
+
+    .compromiso-imgs {
+        margin-left: 0;
+        flex-direction: column;
+        gap: 12px;
+        width: 100%;
+    }
+
+    .compromiso-card {
+        width: 100%;
+        min-width: 0;
+        height: auto;
+    }
+
+    .compromiso-img {
+        width: 100%;
+        height: 200px;
+    }
+
+    /* ---- PIE DE PAGINA ---- */
+    .contepiedepagina {
+        margin-top: 0;
+        flex-direction: column;
+        height: auto;
+        padding: 28px 20px;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .logopie {
+        width: 100px;
+        height: 100px;
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .line1 {
+        width: 80%;
+        height: 1px;
+        margin-left: 0;
+    }
+
+    .infocontactanos,
+    .infosiguenos,
+    .infoenlaces {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        margin-top: 0;
+        font-size: 14px;
+        padding-left: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .infoitem {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .infoitem img {
+        width: 16px;
+        height: 16px;
+    }
+
+    .contactanos,
+    .enlaces {
+        font-size: 15px;
+    }
+}

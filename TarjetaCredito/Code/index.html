@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Tarjeta Credito</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/IndexDulceria/IconosHeader/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="encabezado">
+        <div class="contenedorlogoheader">
+            <a href="/IndexDulceria/Code/index.html"><img src="\IndexDulceria\IconosHeader\logo.png" alt="Logo no cargado" class="logoheader"></a>
+        </div>
+        <div class="nav-header">
+            <span>Preferenciales</span>
+            <span>Quienes Somos</span>
+            <span>Pedidos</span>
+        </div>
+        <div class="iconosheader">
+            <img src="/IndexDulceria/IconosHeader/user.png" alt="" class="iconuser">
+            <img src="/IndexDulceria/IconosHeader/carrito.png" alt="" class="iconcarrito">
+        </div>
+    </header>
+
+    <div class="contenedorpadre">
+
+        <!-- Tarjeta de credito -->
+        <div class="contenedorTarjeta">
+            <div class="logo">
+                <img src="/PSE/ImgLogitos/Group 8.png" alt="">
+            </div>
+            <p>Tarjeta de credito</p>
+        </div>
+
+        <!-- Resumen del pedido -->
+        <div class="conteResumenPedido">
+            <div class="filaResumen">
+                <img src="/PSE/ImgLogitos/Group 8.png" alt="" class="logoResumen">
+                <p class="tituloResumen">Resumen de pedido</p>
+            </div>
+
+            <div class="filaPaquete">
+                <img src="/TarjetaCredito/ImgCaja/Cja.png" alt="" class="imgPaquete">
+                <div class="infoPaquete">
+                    <p class="nombrePaquete">Paquete 1</p>
+                    <p class="cantidadPaquete">Cantidad: 2</p>
+                </div>
+                <p class="precioPaquete">$ 330.000 COP</p>
+            </div>
+
+            <div class="filaTotal">
+                <p class="textoTotal">Total a pagar</p>
+                <p class="precioTotal">$ 330.000 COP</p>
+            </div>
+        </div>
+
+        <!-- Formulario tarjeta -->
+        <div class="conteFormulario">
+
+            <label>Numero De Tarjeta</label>
+            <div class="inputIcono">
+                <img src="/TarjetaCredito/ImgLogitos/Magnetic Card.png" alt="">
+                <input type="text" placeholder="1234 567888 9088 3214"/>
+            </div>
+
+            <div class="filaDoble">
+                <div class="campoDoble">
+                    <label>Codigo de seguridad</label>
+                    <div class="inputIcono">
+                        <img src="/TarjetaCredito/ImgLogitos/Security Shield.png" alt="">
+                        <input type="text" placeholder="MM/AA"/>
+                    </div>
+                </div>
+                <div class="campoDoble">
+                    <label>Fecha de expiración</label>
+                    <div class="inputIcono">
+                        <img src="/TarjetaCredito/ImgLogitos/lock.png" alt="">
+                        <input type="text" placeholder="CVV/CVC"/>
+                    </div>
+                </div>
+            </div>
+
+            <label>Nombre de propietario</label>
+            <div class="inputIcono">
+                <img src="/TarjetaCredito/ImgLogitos/User Male.png" alt="">
+                <input type="text" placeholder="Nombre completo del propietario"/>
+            </div>
+
+        </div>
+
+        <!-- Botones -->
+        <div class="filaBotones">
+            <button class="btn-regresar">Regresar</button>
+            <button class="btn-confirmar">Confirmar</button>
+        </div>
+
+    </div>
+
+</body>
+</html>

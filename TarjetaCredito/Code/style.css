@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    background-color: #fff;
+}
+
+/* HEADER */
+.encabezado {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 124px;
+    background: linear-gradient(to right, #FD9D12, #FD6802);
+}
+
+.contenedorlogoheader {
+    display: flex;
+    justify-content: center;
+    margin-left: 3%;
+    width: 127px;
+    height: 100%;
+}
+
+.logoheader {
+    width: 100%;
+    height: 100%;
+}
+
+.nav-header {
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 18%;
+    gap: 220px;
+}
+
+.iconosheader {
+    display: flex;
+    gap: 50px;
+    margin-left: 18%;
+    margin-right: 3%;
+}
+
+/* CONTENEDOR PRINCIPAL */
+.contenedorpadre {
+    padding: 72px 180px;
+    background-color: #ffffff00;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+/* TARJETA DE CREDITO */
+.contenedorTarjeta {
+    width: 480px;
+    height: 75px;
+    background-color: #F2F2EC;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.logo {
+    width: 46px;
+    height: 46px;
+    margin-left: 18px;
+}
+
+.contenedorTarjeta p {
+    color: #5D5D5D;
+    margin-left: 24px;
+    font-size: 20px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 700;
+}
+
+/* RESUMEN DEL PEDIDO */
+.conteResumenPedido {
+    background-color: #F2F2EC;
+    border-radius: 10px;
+    padding: 26px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.filaResumen {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logoResumen {
+    width: 34px;
+    height: 34px;
+}
+
+.tituloResumen {
+    color: #328928;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.filaPaquete {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.imgPaquete {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.infoPaquete {
+    flex: 1;
+}
+
+.nombrePaquete {
+    font-weight: 700;
+    color: #333;
+    font-size: 25px;
+}
+
+.cantidadPaquete {
+    color: #666;
+    font-size: 18px;
+}
+
+.precioPaquete {
+    color: #333;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.filaTotal {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #ccc;
+    padding-top: 14px;
+}
+
+.textoTotal {
+    font-weight: 700;
+    color: #333;
+    font-size: 18px;
+}
+
+.precioTotal {
+    font-weight: 700;
+    color: #328928;
+    font-size: 18px;
+}
+
+/* FORMULARIO */
+.conteFormulario {
+    background-color: #F2F2EC;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.conteFormulario label {
+    font-size: 20px;
+    font-weight: 700;
+    color: #333;
+}
+
+.inputIcono {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 0 14px;
+    height: 54px;
+    gap: 12px;
+}
+
+.inputIcono img {
+    width: 22px;
+    height: 22px;
+}
+
+.inputIcono input {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 20px;
+    color: #999;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.filaDoble {
+    display: flex;
+    gap: 18px;
+}
+
+.campoDoble {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* BOTONES */
+.filaBotones {
+    display: flex;
+    gap: 18px;
+}
+
+.btn-regresar,
+.btn-confirmar {
+    flex: 1;
+    height: 70px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: #328928;
+    color: #fff;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
